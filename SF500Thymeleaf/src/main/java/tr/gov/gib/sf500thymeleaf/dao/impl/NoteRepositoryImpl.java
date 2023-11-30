@@ -10,7 +10,7 @@ import java.util.List;
 @Repository
 public class NoteRepositoryImpl implements NoteRepository {
 
-    private  Long idCounter=1L;
+    private  Long idCounter=2L;
     private  List<Note> notes= new ArrayList<>();
     @Override
     public List<Note> findAll() {
